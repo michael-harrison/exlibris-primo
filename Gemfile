@@ -6,6 +6,7 @@ source "http://rubygems.org"
 gemspec
 
 gem 'jruby-openssl', "~> 0.9.0", platform: :jruby
+gem 'savon', git: 'https://github.com/michael-harrison/savon.git'
 
 group :test do
   gem "coveralls", "~> 0.7.0", :require => false
